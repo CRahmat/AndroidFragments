@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--    Item digunakan untuk memberikan menu pada navigasi-->
+
+    <item
+        android:title="HEROES"
+        android:id="@+id/fr_heroes_list"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_hero_list"
+        />
+    <item
+        android:title="HEROES LIST"
+        android:id="@+id/fr_heroes"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_heroes"
+        />
+    <item
+        android:title="PROFILE"
+        android:id="@+id/fr_home"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_user"
+        />
+</menu>
